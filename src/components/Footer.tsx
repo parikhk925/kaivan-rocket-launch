@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12 mb-12">
           <div>
             <h3 className="text-2xl font-bold mb-4 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-              KAIVAN DIGITAL
+              Kaivan Digital
             </h3>
             <p className="text-background/80 mb-4">
               Engineering Brand Growth
@@ -70,7 +70,7 @@ const Footer = () => {
         </div>
         
         <div className="border-t border-background/20 pt-8 text-center text-background/60">
-          <p>&copy; {new Date().getFullYear()} KAIVAN DIGITAL. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Kaivan Digital. All rights reserved.</p>
         </div>
       </div>
     </footer>

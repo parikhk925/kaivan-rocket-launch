@@ -1,6 +1,5 @@
 import { Button } from "@/components/ui/button";
 import { Rocket } from "lucide-react";
-import logo from "@/assets/logo.jpg";
 
 const Hero = () => {
   const scrollToForm = () => {
@@ -8,24 +7,18 @@ const Hero = () => {
   };
 
   return (
-    <section className="min-h-screen flex items-center justify-center px-4 py-20 relative overflow-hidden">
+    <section className="min-h-screen flex items-center justify-center px-4 py-20 pt-32 relative overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-secondary/5" />
       
       <div className="container mx-auto text-center relative z-10 animate-fade-in">
-        <div className="flex justify-center mb-8 animate-scale-in">
-          <img 
-            src={logo} 
-            alt="KAIVAN DIGITAL" 
-            className="w-48 h-48 md:w-64 md:h-64 object-contain"
-          />
-        </div>
-        
         <div className="relative inline-block mb-4">
-          <Rocket className="w-8 h-8 text-primary absolute -top-10 -right-10 animate-rocket-float" />
+          <Rocket className="w-12 h-12 text-primary animate-rocket-float mx-auto" />
         </div>
         
-        <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-          KAIVAN DIGITAL
+        <h1 className="text-5xl md:text-7xl font-bold mb-6">
+          <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+            Kaivan Digital
+          </span>
         </h1>
         
         <p className="text-xl md:text-2xl text-muted-foreground mb-4 font-medium">
